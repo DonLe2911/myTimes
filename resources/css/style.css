@@ -42,3 +42,113 @@ nav span {
   margin-right: 12px;
 
 }
+
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+  border: 1px solid black;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large {
+  border: 1px solid black;
+  width: 630px;
+  display: flex;
+
+}
+
+.top.story span {
+  border: 1px solid black;
+}
+
+.top.story p {
+  border: 1px solid black;
+}
+
+.middle.story {
+  border: 1px solid black;
+}
+
+.middle.story h2 {
+  border: 1px solid black;
+}
+
+.middle.story p {
+  border: 1px solid black;
+}
+
+.middle.story span {
+  border: 1px solid black;
+}
+
+.bottom.story {
+  border: 1px solid black;
+}
+
+.bottom.story h2 {
+  border: 1px solid black;
+}
+
+.bottom.story p {
+  border: 1px solid black;
+}
+
+.bottom.story span {
+  border: 1px solid black;
+}
+
+.column.medium {
+  border: 1px solid black;
+  width: 300px;
+  display: flex;
+}
+
+.FBI {
+  border: 1px solid black;
+}
+
+.FBI h2 {
+  border: 1px solid black;
+}
+
+.FBI p {
+  border: 1px solid black;
+}
+
+.cats {
+  border: 1px solid black;
+}
+
+.cats span {
+  border: 1px solid black;
+}
+
+.cats p {
+  border: 1px solid black;
+}
+
+.column.small {
+  border: 1px solid black;
+  width: 240px;
+  display: flex;
+}
+
+.cookie.image {
+  border: 1px solid black;
+  width: 240px;
+}
+
+.news h3 {
+  border: 1px solid black;
+}
+
+.news p {
+  border: 1px solid black;
+}
