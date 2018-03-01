@@ -127,7 +127,7 @@ nav span {
 }
 
 .FBI {
-
+width: 300px;
 }
 
 .FBI h2 {
@@ -140,7 +140,7 @@ nav span {
 }
 
 .cats {
-
+width: 300px;
 }
 
 .cats span {
@@ -152,6 +152,7 @@ nav span {
 .column.small {
   width: 240px;
   display: flex;
+  flex-direction: column;
 }
 
 .cookie.image {
@@ -159,7 +160,9 @@ nav span {
 }
 
 .news h3 {
-
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .news p {
@@ -201,4 +204,16 @@ nav span {
 .stories {
   display: flex;
   justify-content: space-around;
+}
+
+.bite {
+  margin: 0;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 11px 20px;
+  display: flex;
+
 }
